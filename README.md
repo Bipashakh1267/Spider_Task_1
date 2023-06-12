@@ -9,5 +9,5 @@ Level-2 :-
 System information can be retrieved by executing system_info.sh which will save the info in system_info.txt
 
 Level-3 :-
-Daemon that does everything as Level 1-subtask 2 and also runs in the background that kills all processes that consume more than 60% of CPU usage can be started by executing --> bash daemon.sh &
+1) Daemon that does everything as Level 1-subtask 2 and also runs in the background that kills all processes that consume more than 60% of CPU usage can be started by executing --> bash daemon.sh &
 It will log the properties of process killed in a file process_log.txt.
