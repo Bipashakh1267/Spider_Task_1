@@ -1,4 +1,5 @@
 #!/bin/bash
+stty erase ^H
 if [ $# -eq 0 ]; then
    while true; do
       read -p "Enter name: " name
