@@ -14,7 +14,7 @@ if [ $# -eq 0 ]; then
       echo "User added successfully"
       read -p "Do you want to add another user (y/n) :- " check
       if [[ $check == *y* ]]; then
-         exit 0
+         break
       fi
    done
 else
