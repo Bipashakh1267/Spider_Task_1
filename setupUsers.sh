@@ -10,6 +10,11 @@ if [ $# -eq 0 ]; then
          sudo chown $name:$name /home/$name/website.txt
          sudo chmod 446 /home/$name/website.txt
       fi
+      echo "User added successfully"
+      read -p "Do you want to add another user (y/n) :- " check
+      if [[ $check == *y* ]]; then
+         exit 0
+      fi
    done
 else
    file=$1
